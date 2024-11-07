@@ -64,7 +64,7 @@ reinstall_DB()  # This will delete and repopulate the local cache
 
 ## Advanced Search Fields
 
-The `get_proteins()` method supports various fields and lookups (see [FPBase API docs](https://fpbase.org/api/)):
+The `get_proteins()` method supports various fields and lookups (see [FPBase API docs](https://www.fpbase.org/api/)):
 
 - `name`: icontains, iendswith, istartswith, iexact
 - `seq`: icontains, iendswith, istartswith, cdna_contains
