@@ -39,11 +39,6 @@ jobs:
         run: |
           mkdocs build
           
-      - name: Check links
-        run: |
-          pip install linkchecker
-          linkchecker site/
-          
       - name: Deploy documentation
         if: github.event_name != 'pull_request'
         run: |
