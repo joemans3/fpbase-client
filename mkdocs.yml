@@ -1,6 +1,6 @@
 site_name: FPBase Client
 site_description: A Python client for the FPBase REST API
-repo_url: https://github.com/yourusername/fpbase-client
+repo_url: https://github.com/joemans3/fpbase-client
 repo_name: fpbase-client
 
 theme:
