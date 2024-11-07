@@ -3,10 +3,10 @@ name: Documentation
 on:
   # Trigger on pushes to main branch
   push:
-    branches: [ main ]
+    branches: [ master ]
   # Trigger on PRs to main branch
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 
 jobs:
