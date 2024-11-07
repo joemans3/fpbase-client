@@ -28,4 +28,5 @@ jobs:
 
     - name: Run ruff
       run: |
-        ruff src/  # Adjust the path to your source code directory 
+        ruff format
+        ruff check
