@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fpbase-client"
-version = "0.1.0"
+dynamic = ["version"]
 authors = [
     { name = "Baljyot Parmar", email = "baljyotparmar@hotmail.com" },
 ]
@@ -42,3 +42,6 @@ docs = [
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 addopts = "-v --cov=fpbase_client"
+
+[tool.hatch.version]
+path = "src/fpbase_client/__init__.py"

@@ -3,7 +3,7 @@
 from .api import FPBaseAPI
 from ._local_database import FPBaseDB
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 # Initialize database and populate with data
 db = FPBaseDB()
