@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/project/FPBaseClient/
+      url: https://pypi.org/p/FPBaseClient
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
